@@ -1,3 +1,50 @@
+body{
+	background-color: #DCDCDC
+}
+.editar-card{
+	background-color:#D3D3D3;
+	padding: 5%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+
+
+}
+#card1{
+	background-color:#00008B;
+}
+
+#card2{
+	background-color:#FFD700;
+}
+
+#card3{
+	background-color:#2E8B57;
+}
+
+#card4{
+	background-color:#4682B4;
+}
+
+.efeito-card{
+	transition: transform 1s;
+	
+
+
+}
+
+
+
+.efeito-img{
+	transition: transform 1s;
+
+}
+.efeito-img:hover{
+	transform: scale(1.2) rotatey(360deg);
+	cursor: pointer;
+}
+
+
+
 #cards{
 	margin-top: 25px;
 	margin-left: 50px;
@@ -5,3 +52,10 @@
 	margin-bottom: 50px;
 	
 }
+#text1{
+	text-align: center;
+}
+#text2{
+text-align: center;
+}
+

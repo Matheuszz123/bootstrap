@@ -7,11 +7,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Navbar</title>
 	<link rel="stylesheet" href="res/bootstrap/css/bootstrap.min.css">
-	
-	<nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#FF0000">
+	<link rel="stylesheet" href="css/style.css">
+	<nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#1C1C1C">
 		<div class="container">
 			<a class="navbar-brand" href="#">
-				<img src="img/obina.png" alt="Logo do Site" width="100" height="100"
+				<img src="img/nba-logo-1.png" alt="Logo do Site" width="200" height="100"
 			</a>
 			<div class="collapse navbar-collapse">
 				<div class="navbar-nav">
@@ -23,30 +23,48 @@
 			</div>
 		</div>
 	</nav>
-	<div id="cards">
-		<h2 id="titulo-areas">QUER CONTRATAR O OBINA</h2>
-	
-	
-	<div class="card">
-		<div>
-		<h4> Ligue para:</h4>
-		<p> Matheus Oliveira,na aba de contatos tem o número e o email do empresario do obina.  </p>
+<div class="carousel slide" data-bs-ride="carousel" id="meuCarousel">
+		<div class="carousel-indicators">
+		<button type="button" data-bs-target="#meuCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="slide1"> </button>
+		<button type="button" data-bs-target="#meuCarousel" data-bs-slide-to="1" aria-current="true" aria-label="slide1"> </button>
+		<button type="button" data-bs-target="#meuCarousel" data-bs-slide-to="2" aria-current="true" aria-label="slide1"> </button>
+		</div>
+
+<div class="carousel-inner">
+	<div class="carousel-item active">
+		<img src="img/banner1.jpg" class="d-block w-100" style="max-height: 450px;">
+		<div class="carousel-caption d-none d-md-block">
+		<h5 id="tituloCarrosel">LIGA NORTE AMERICANA</h5>
+		<p id="textoCarrosel">MELHOR LIGA DO MUNDO</p>
 		</div>
 	</div>
-	
-	<div class="card">
-		<div>
-		<h4> O valor de mercado:</h4>
-		<p>Como obina foi considerado três vezes o melhor jogador da historia do universo o valor de mercado dele pode chegar a 2 bilhões de euros cujo a atual situação do jogador o preço pode variar </p>
-		</div>
-	</div>
-	
-	</div>
-	
-	</section>
+				<div class="carousel-item">
+						<img src="img/banner2.jpg" class="d-block w-100" style="max-height: 450px;">
+						<div class="carousel-caption d-none d-md-block">
+						<h6>GOLDEN STATE WARRIORSn</h6>
+						<p>MELHORES DA LIGA NBA</p>
+						</div>
+				</div>
+										<div class="carousel-item ">
+										<img src="img/banner3.jpg" class="d-block w-100" style="max-height:450px;">
+										<div class="carousel-caption d-none d-md-block">
+										<h6>CURRY E KLAY THOMPSON</h6>
+										<p>MVPS</p>
+										</div>
+										</div>
+											<button class="carousel-control-prev" type="button" data-bs-target="#meuCarousel" data-bs-slide="prev">
+												<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+												<span class="visually-hidden">voltar</span>
+											</button>
+											<button class="carousel-control-next" type="button" data-bs-target="#meuCarousel" data-bs-slide="next">
+												<span class="carousel-control-next-icon" aria-hidden="true"></span>
+												<span class="visually-hidden">avançar</span>
+											</button>
+</div>
 
+</div> 
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="res/bootstrap/js/bootstrap.min.js"></script>
 
-<script type="text/javascript" src="res/bootstrap/js/botstrap.min.js"></script>
 </head>
 <body>
-
