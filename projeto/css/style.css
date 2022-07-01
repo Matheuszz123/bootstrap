@@ -59,5 +59,33 @@ body{
 text-align: center;
 }
 
+#imggui{
+	margin-top: 2%;
+	margin-left: 15%;
+	margin-bottom: 4%
+}
+#txt1{
+margin-left:5%; 
+margin-bottom:2%;
+}
+#txt2{
+margin-left:5%; 
+margin-bottom:2%;
+}
+#txt3{
+margin-left:5%; 
+margin-bottom:2%;
+}
+#txt4{
+margin-left:5%; 
+margin-bottom:5%;
+}
 
+#cards2{
+	margin-top: 25px;
+	
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+	
 
