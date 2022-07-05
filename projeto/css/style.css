@@ -65,22 +65,30 @@ text-align: center;
 	margin-bottom: 4%
 }
 #txt1{
-margin-left:5%; 
+margin-left:50px; 
 margin-bottom:2%;
 }
 #txt2{
-margin-left:5%; 
-margin-bottom:2%;
+margin-left:50px; 
+margin-bottom:1%;
 }
 #txt3{
-margin-left:5%; 
-margin-bottom:2%;
+margin-left:50px; 
+margin-bottom:1%;
 }
 #txt4{
-margin-left:5%; 
+margin-top:3%;
+margin-left:50px; 
+margin-bottom:3%;
+}
+#txt5{
+margin-left:50px; 
+margin-bottom:1%;
+}
+#txt6{
+margin-left:50px; 
 margin-bottom:5%;
 }
-
 #cards2{
 	margin-top: 25px;
 	
@@ -180,7 +188,37 @@ label{
 	text-align:left;
 }
 #imgc{
-	max-height:950px;
-	max-width:950px;
-	
+	max-height:1000px;
+	max-width:1000px;
+}
+#tituloCarrosel{
+	color: 	#1E90FF;
+}
+#textoCarrosel{
+	color: 	#1E90FF;
+}
+#titc1{
+	color: 	#1E90FF;
+}
+#txtc1{
+	color: 	#1E90FF;
+}
+#titc2{
+	color: 	#1E90FF;
+}
+#txtc2{
+	color: 	#1E90FF;
+}
+
+#imggi{
+	height:900px;
+	width:1800px;
+	display: block;
+	margin: 0px auto;
+	margin-bottom:3%;
+	margin-top: 3%;
+}
+#titlen1{
+	margin-left:3%;
+	margin-top:2%;
 }
