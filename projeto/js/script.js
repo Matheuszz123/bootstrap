@@ -46,4 +46,52 @@ function validarFormulario() {
 		
 		}
 		
+	function validarFormularioLogin(){
+	let email = document.getElementById("email_login").value
+	let senha = document.getElementById("senha_log").value
+		if(email == "")
+		{
+			alert("O campo está vazio")
+			
+		}
+		if(senha == ""){
+			alert("O campo está vazio")
+			
+		}
 	
+	}
+	function validarFormularioCadastro(){
+	let nome = document.getElementById("nome_cad").value
+	let senha = document.getElementById("senha_cad").value
+	let email = document.getElementById("email_cad").value
+	let confsenha = document.getElementById("senha_cad1").value
+	let confemail = document.getElementById("email_cad1").value
+	let telefone = document.getElementById("nmr-telefone").value
+		
+		
+		if(email == "")
+		{
+			alert("O campo está vazio")
+			
+		}
+		if(senha == ""){
+			alert("O campo está vazio")
+			
+		}
+		if(confsenha == ""){
+			alert("O campo está vazio")
+			
+		}
+		if(confemail == ""){
+			alert("O campo está vazio")
+			
+		}
+		if(nome == ""){
+			alert("O campo está vazio")
+			
+		}
+		if(telefone == "" || telefone.length<8){
+			alert("O campo está vazio")
+			
+		}
+	}
